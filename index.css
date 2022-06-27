@@ -1,0 +1,111 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css");
+*{
+    margin: 0%;
+    padding: 0%;
+    font-style: normal;
+    font-size: large;
+    box-sizing: content-box;
+}
+
+/*the header remainber that the nav bar is to the right hand side*/
+body{
+    background-image: url(https://th.bing.com/th/id/OIP.kTOhFz_-SbYjPJNralcSCwHaEo?w=268&h=180&c=7&r=0&o=5&pid=1.7);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    
+}
+/*this belong to the open.html no time*/
+h1{
+    color: orange;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    font-family: Verdana;
+    font-weight: bold;
+    text-align: center;
+}
+/* this is the body of the section css for index html*/
+h3{
+    color: orange;
+    font-size: large;
+    font-family: monospace;
+    text-transform: capitalize;
+}
+input{
+    margin: 8px 0;
+    display: inline-block;
+    border-bottom: 5px  #18b5f3;
+    box-sizing: border-box;
+    color: #ffae00e0;
+    border-style: none none solid none;
+    width: 250px;
+    height: 24px;
+    padding: 25px;
+    margin: 25px;
+    text-transform: uppercase;
+}
+input:hover, input:active{
+    color: orange;
+    border: 5px double #68cef7;
+    border-radius: 5px;
+}
+input:visited{
+    color: #68cef7;
+    opacity: 0.5%;
+}
+section{
+    display: flex;
+    color: whitesmoke;
+    
+}
+/* 
+section button{
+    color: whitesmoke;
+    background-color: skyblue;
+    border-style: none;
+    text-decoration: none;
+    border-radius: 5px;
+}
+*/
+div a{
+    color: orange;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+div a:hover, button{
+    border-style: solid;
+    border-color: whitesmoke;
+    color: orange;
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+.container{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 150px;
+}
+/*the second div tags*/
+#form{
+    display: block;
+}
+div p{
+    text-transform: capitalize;
+}
+#account label{
+    color: orange;
+    font-family: Arial;
+    font-weight: lighter;
+    font-style: italic;
+}
+span{
+    color: orange;
+}
+button{
+    color: orange;
+    background-color: white;
+    border-style: none;
+    margin-top: 40px;
+}
