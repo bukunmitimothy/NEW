@@ -9,10 +9,11 @@
 
 /*the header remainber that the nav bar is to the right hand side*/
 body{
-    background-image: url(https://th.bing.com/th/id/OIP.kTOhFz_-SbYjPJNralcSCwHaEo?w=268&h=180&c=7&r=0&o=5&pid=1.7);
+    background-image: url(https://media.istockphoto.com/photos/astronaut-in-outer-space-mixed-media-picture-id683539596?k=20&m=683539596&s=612x612&w=0&h=RqpGtlO0aE1Y6FceCUfYOpEydnOg0C_IfSWad7zUZdQ=);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
+    scroll-behavior: smooth;
     background-size: cover;
 
     
@@ -27,7 +28,7 @@ h1{
     text-align: center;
 }
 /* this is the body of the section css for index html*/
-h3{
+h3, h2{
     color: orange;
     font-size: large;
     font-family: monospace;
@@ -73,6 +74,7 @@ div a{
     color: orange;
     text-decoration: none;
     text-transform: uppercase;
+    font-weight: bold;
 }
 div a:hover, button{
     border-style: solid;
@@ -80,6 +82,7 @@ div a:hover, button{
     color: orange;
     background-color: aliceblue;
     border-radius: 5px;
+    transform-style: flat;
 }
 .container{
     align-items: center;
@@ -107,5 +110,18 @@ button{
     color: orange;
     background-color: white;
     border-style: none;
-    margin-top: 40px;
+}
+article, .here{
+    font-size: 10px;  
+    font-family: cursive;
+    font-weight: lighter;
+    color: orange;
+    margin-top: 5px;
+    text-transform: capitalize;
+}
+/*this is for the button and a link in crating account*/ 
+.btn{
+    margin-top: 5px;
+    color: orange;
+    text-decoration: underline;
 }
